@@ -81,3 +81,6 @@ Please feel free to fork or branch off of `master` at any time as needed.
 ## Authors
 
 * **Ryan Whitwell** - *Initial work* - [Email](mailto:ryanwhitwell.developer@gmail.com)
+
+## Licenses
+[MIT](LICENSE.txt)
