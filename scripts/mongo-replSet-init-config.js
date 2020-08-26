@@ -1,0 +1,1 @@
+printjson(rs.initiate({ _id : "rConfigSvr", members: [ { _id : 0, host : "localhost:27018" } ] }));

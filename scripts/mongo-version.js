@@ -1,0 +1,1 @@
+printjson("MongoDB Version: " + db.version());

@@ -1,0 +1,6 @@
+.venv*
+localstack/dashboard/web/node_modules/
+localstack/ext/java/target
+localstack/infra/
+!localstack/infra/localstack-*.jar
+localstack/node_modules/

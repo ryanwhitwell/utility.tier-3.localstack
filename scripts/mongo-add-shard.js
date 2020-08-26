@@ -1,0 +1,1 @@
+printjson(sh.addShard( "rShardSvr/localhost:27019"));

@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  tier-3-local:
+    container_name: tier-3-local
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "27017:27017"
+      - "27018:27018"
+      - "27019:27019"
+      - "7000:7000"
+      - "9200:9200"
+      - "9300:9300"
+      - "15672:15672"
+      - "5672:5672"
+      - "5671:5671"
+    command: scripts/startup.sh
+    privileged: true
